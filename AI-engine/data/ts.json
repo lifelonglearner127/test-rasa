@@ -1,0 +1,403 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "hey",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "howdy",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hey there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hello",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "hi",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "yes",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yep",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "yeah",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "goodbye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "good bye",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "stop",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "end",
+        "intent": "goodbye",
+        "entities": []
+      },
+      {
+        "text": "indeed",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "that's right",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "ok",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "great",
+        "intent": "affirm",
+        "entities": []
+      },
+      {
+        "text": "How does a principal reflect on school mission and vision?",
+        "intent": "FAQ",
+        "entities": [
+          {
+            "start": 32,
+            "end": 47,
+            "value": "reflect",
+            "entity": "school mission"
+          }
+        ]
+      },
+      {
+        "text": "How do principals create a culture which ensures that all teachers, other faculty and parents hold all students to high academic standards?",
+        "intent": "FAQ",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "create",
+            "entity": "culture"
+          },
+          {
+            "start": 94,
+            "end": 138,
+            "value": "hold all students to high academic standards",
+            "entity": "culture"
+          }
+        ]
+      },
+      {
+        "text": "objective of the school",
+        "intent": "FAQ",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "objective of the school",
+            "entity": "school mission"
+          }
+        ]
+      },
+      {
+        "text": "How does a Principal ensure that their school has a technology plan that is fully aligned with the buildings mission, vision and curriculum?",
+        "intent": "Mission-Statement",
+        "entities": [
+          {
+            "start": 21,
+            "end": 27,
+            "value": "vision",
+            "entity": "ensure"
+          },
+          {
+            "start": 82,
+            "end": 89,
+            "value": "vision",
+            "entity": "ensure"
+          }
+        ]
+      },
+      {
+        "text": "School mission statements represent a useful source of data for gaining access to the school perspective on matters of purpose for at least four reasons",
+        "intent": "Mission-Statement",
+        "entities": [
+          {
+            "start": 26,
+            "end": 35,
+            "value": "represent",
+            "entity": "aligned"
+          },
+          {
+            "start": 93,
+            "end": 104,
+            "value": "perspective",
+            "entity": "aligned"
+          }
+        ]
+      },
+      {
+        "text": "How do principals  inspire the school community to act in accordance with the mission, vision and core values?",
+        "intent": "inspire",
+        "entities": [
+          {
+            "start": 58,
+            "end": 68,
+            "value": "accordance",
+            "entity": "accordance"
+          },
+          {
+            "start": 78,
+            "end": 109,
+            "value": "mission, vision and core values",
+            "entity": "accordance"
+          }
+        ]
+      },
+      {
+        "text": "How do principals ensure that all members of a school community are familiar with and can articulate the schools mission, vision and core values?",
+        "intent": "familiar",
+        "entities": [
+          {
+            "start": 30,
+            "end": 63,
+            "value": "all members of a school community",
+            "entity": "ensure"
+          },
+          {
+            "start": 90,
+            "end": 144,
+            "value": "articulate the schools mission, vision and core values",
+            "entity": "ensure"
+          }
+        ]
+      },
+      {
+        "text": "How do principals build consensus on a vision that reflects the core values of the school community?",
+        "intent": "consensus",
+        "entities": [
+          {
+            "start": 0,
+            "end": 23,
+            "value": "How do principals build",
+            "entity": "build"
+          },
+          {
+            "start": 24,
+            "end": 33,
+            "value": "consensus",
+            "entity": "consensus"
+          },
+          {
+            "start": 39,
+            "end": 99,
+            "value": "vision that reflects the core values of the school community",
+            "entity": "consensus"
+          }
+        ]
+      },
+      {
+        "text": "Can principles ensure that all members of a school community are familiar with and can articulate the schools mission, vision and core values?",
+        "intent": "familiar",
+        "entities": [
+          {
+            "start": 15,
+            "end": 73,
+            "value": "ensure that all members of a school community are familiar",
+            "entity": "ensure"
+          },
+          {
+            "start": 83,
+            "end": 141,
+            "value": "can articulate the schools mission, vision and core values",
+            "entity": "ensure"
+          }
+        ]
+      },
+      {
+        "text": "What can principals do to build consensus on a vision that reflects the core values of the school community?",
+        "intent": "consensus",
+        "entities": [
+          {
+            "start": 26,
+            "end": 107,
+            "value": "build consensus on a vision that reflects the core values of the school community",
+            "entity": "build"
+          }
+        ]
+      },
+      {
+        "text": "What can principles do to inspire the school community to act in accordance with the mission, vision and core values?",
+        "intent": "inspire",
+        "entities": [
+          {
+            "start": 26,
+            "end": 75,
+            "value": "inspire the school community to act in accordance",
+            "entity": "accordance"
+          }
+        ]
+      },
+      {
+        "text": "How do principals develop school mission and vision statements?",
+        "intent": "vision",
+        "entities": [
+          {
+            "start": 7,
+            "end": 40,
+            "value": "principals develop school mission",
+            "entity": "develop"
+          }
+        ]
+      },
+      {
+        "text": "principals develop school mission and vision statements",
+        "intent": "vision",
+        "entities": [
+          {
+            "start": 38,
+            "end": 55,
+            "value": "vision statements",
+            "entity": "develop"
+          }
+        ]
+      },
+      {
+        "text": "How do principals create a directory of of local social service providers?",
+        "intent": "create_directory",
+        "entities": [
+          {
+            "start": 18,
+            "end": 36,
+            "value": "create a directory",
+            "entity": "directory"
+          },
+          {
+            "start": 43,
+            "end": 73,
+            "value": "local social service providers",
+            "entity": "directory"
+          }
+        ]
+      },
+      {
+        "text": "do principals create a directory of of local social service providers",
+        "intent": "create_directory",
+        "entities": [
+          {
+            "start": 3,
+            "end": 32,
+            "value": "principals create a directory",
+            "entity": "directory"
+          }
+        ]
+      },
+      {
+        "text": "How do principals ensure that support provided by external partners are aligned with their schools mission, vision and core values?",
+        "intent": "provide_support",
+        "entities": [
+          {
+            "start": 18,
+            "end": 67,
+            "value": "ensure that support provided by external partners",
+            "entity": "ensure support"
+          }
+        ]
+      },
+      {
+        "text": "principals ensure that support provided by external partners are aligned with their schools mission, vision and core values?",
+        "intent": "provide_support",
+        "entities": [
+          {
+            "start": 23,
+            "end": 39,
+            "value": "support provided",
+            "entity": "ensure support"
+          },
+          {
+            "start": 40,
+            "end": 99,
+            "value": "by external partners are aligned with their schools mission",
+            "entity": "ensure support"
+          }
+        ]
+      },
+      {
+        "text": "How can principals work with various municipal agencies",
+        "intent": "work_municipal",
+        "entities": [
+          {
+            "start": 19,
+            "end": 55,
+            "value": "work with various municipal agencies",
+            "entity": "municipal"
+          }
+        ]
+      },
+      {
+        "text": "How can principals work with libraries, police department and hospitals?",
+        "intent": "work_municipal",
+        "entities": [
+          {
+            "start": 19,
+            "end": 71,
+            "value": "work with libraries, police department and hospitals",
+            "entity": "municipal"
+          }
+        ]
+      },
+      {
+        "text": "How do principals open their schools to host community-wide events",
+        "intent": "community_events",
+        "entities": [
+          {
+            "start": 18,
+            "end": 44,
+            "value": "open their schools to host",
+            "entity": "host"
+          }
+        ]
+      },
+      {
+        "text": "How do principals open their schools to host family health fairs?",
+        "intent": "community_events",
+        "entities": [
+          {
+            "start": 45,
+            "end": 64,
+            "value": "family health fairs",
+            "entity": "host"
+          }
+        ]
+      }
+    ]
+  }
+}
